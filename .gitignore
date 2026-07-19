@@ -1,0 +1,21 @@
+# Secrets
+.env
+.env.*
+*.key
+credentials*
+secrets*
+
+# n8n local data
+.n8n/
+execution-data/
+tmp/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Test files containing private data
+private-data/
+real-receipts/
