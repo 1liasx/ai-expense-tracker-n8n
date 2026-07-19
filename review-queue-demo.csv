@@ -1,0 +1,3 @@
+﻿expense_id,employee_email,file_name,merchant_name,expense_date,total_amount,currency,confidence,missing_fields,review_reason,drive_url,status,processed_at
+EXP-DEMO-0003,employee@example.com,blurry-receipt.jpg,Cafe Demo,2026-07-15,85.00,MAD,0.74,"payment_method, tax_amount",Low extraction confidence,https://drive.google.com/demo-review-link,NEEDS_REVIEW,2026-07-17T18:20:00+01:00
+EXP-DEMO-0004,employee@example.com,missing-total.pdf,Supplier Demo,2026-07-16,,,0.42,"total_amount, currency",Amount missing or extraction confidence too low,,REJECTED_EXTRACTION,2026-07-17T18:30:00+01:00
